@@ -1,5 +1,3 @@
-// import '../styles/globals.css'
-
 // function MyApp({ Component, pageProps }) {
 //   return <Component {...pageProps} />
 // }
@@ -12,8 +10,9 @@ import Head from "next/head"
 import { ThemeProvider } from "@material-ui/core/styles"
 import CssBaseline from "@material-ui/core/CssBaseline"
 import theme from "../styles/theme"
+import "../styles/globals.css"
 
-import Header from "../components/Header"
+import Header from "../components/Header/Header"
 
 export default function MyApp(props) {
 	const { Component, pageProps } = props
@@ -33,6 +32,12 @@ export default function MyApp(props) {
 				<meta
 					name="viewport"
 					content="minimum-scale=1, initial-scale=1, width=device-width"
+				/>
+				<link rel="preconnect" href="https://fonts.gstatic.com" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" />
+				<link
+					href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&family=Sacramento&display=swap"
+					rel="stylesheet"
 				/>
 			</Head>
 			<ThemeProvider theme={theme}>

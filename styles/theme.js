@@ -1,21 +1,42 @@
 import { createMuiTheme } from "@material-ui/core/styles"
 
-const SUB = "#ebd9dd"
-const LIGHT = "#d8aed3"
-const MAIN = "#9182c4"
-const DEEP = "#486989"
+const BLUE_LIGHT = "#8ecae6"
+const BLUE = "#219ebc"
+const BLUE_DEEP = "#023047"
+const YELLOW = "#ffb703"
+const ORANGE = "#fb8500"
 
 const theme = createMuiTheme({
 	palette: {
 		primary: {
-			main: MAIN,
+			main: BLUE,
 		},
 		secondary: {
-			main: SUB,
+			main: YELLOW,
 		},
 		common: {
-			light: LIGHT,
-			Deep: DEEP,
+			light: BLUE_LIGHT,
+			deep: BLUE_DEEP,
+			sub: ORANGE,
+			main: BLUE,
+		},
+	},
+	typography: {
+		fontFamily: `"Poppins", "Sacramento","Helvetica", "Arial", "sans-serif"`,
+		fontSize: 16,
+		h1: {
+			fontFamily: "Sacramento",
+		},
+	},
+	mixins: {
+		tabs: {
+			fontSize: "1.2rem",
+			fontWeight: 700,
+			fontFamily: "Poppins",
+			textTransform: "none",
+			"&:hover": {
+				backgroundColor: BLUE,
+			},
 		},
 	},
 })
