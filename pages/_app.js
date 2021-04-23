@@ -13,6 +13,7 @@ import theme from "../styles/theme"
 import "../styles/globals.css"
 
 import Header from "../components/Header/Header"
+import Footer from "../components/Footer/Footer"
 
 export default function MyApp(props) {
 	const { Component, pageProps } = props
@@ -44,6 +45,7 @@ export default function MyApp(props) {
 				<CssBaseline />
 				<Header />
 				<Component {...pageProps} />
+				<Footer />
 			</ThemeProvider>
 		</React.Fragment>
 	)

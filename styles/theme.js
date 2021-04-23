@@ -30,10 +30,13 @@ const theme = createMuiTheme({
 	},
 	mixins: {
 		tabs: {
-			fontSize: "1.2rem",
+			fontSize: "1rem",
 			fontWeight: 700,
 			fontFamily: "Poppins",
 			textTransform: "none",
+			padding: 0,
+			margin: 0,
+			minWidth: "7rem",
 			"&:hover": {
 				backgroundColor: BLUE,
 			},
