@@ -1,6 +1,9 @@
+import { useTheme } from "@material-ui/core"
 import React from "react"
 
 const Software = () => {
+	const theme = useTheme()
+
 	return (
 		<svg
 			version="1.1"
@@ -8,9 +11,11 @@ const Software = () => {
 			x="0px"
 			y="0px"
 			viewBox="0 0 512 512"
-			style="enable-background:new 0 0 512 512;"
-			width="512"
-			height="512"
+			style={{
+				width: "100%",
+				height: "100%",
+				fill: theme.palette.primary.light,
+			}}
 		>
 			<g id="XMLID_816_">
 				<g id="XMLID_1663_">

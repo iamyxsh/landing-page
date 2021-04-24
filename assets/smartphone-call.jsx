@@ -1,16 +1,20 @@
+import { useTheme } from "@material-ui/core"
 import React from "react"
 
 const Smartphone = () => {
+	const theme = useTheme()
 	return (
 		<svg
 			version="1.1"
 			id="Capa_1"
 			x="0px"
 			y="0px"
-			width="35px"
-			height="35px"
+			style={{
+				width: "100%",
+				height: "100%",
+				fill: theme.palette.primary.light,
+			}}
 			viewBox="0 0 35 35"
-			style="enable-background:new 0 0 35 35;"
 		>
 			<g>
 				<path

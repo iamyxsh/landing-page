@@ -1,6 +1,9 @@
+import { useTheme } from "@material-ui/core"
 import React from "react"
 
 const Web = () => {
+	const theme = useTheme()
+
 	return (
 		<svg
 			id="Capa_1"
@@ -8,6 +11,11 @@ const Web = () => {
 			height="512"
 			viewBox="0 0 512 512"
 			width="512"
+			style={{
+				width: "100%",
+				height: "100%",
+				fill: theme.palette.primary.light,
+			}}
 		>
 			<g>
 				<path d="m497 0h-482c-8.284 0-15 6.716-15 15v91.715 390.285c0 8.284 6.716 15 15 15h482c8.284 0 15-6.716 15-15v-482c0-8.284-6.716-15-15-15zm-15 30v61.715h-61.715v-61.715zm-452 0h360.285v61.715h-360.285zm452 452h-452v-360.285h452z" />
