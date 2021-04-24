@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 	toolbar: {
 		maxWidth: theme.breakpoints.values.xl,
 		margin: "auto",
-		width: "100vw",
+		width: "98vw",
 	},
 	title: {
 		flexGrow: 1,

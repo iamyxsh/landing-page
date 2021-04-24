@@ -21,12 +21,7 @@ const Footer = () => {
 
 	return (
 		<footer>
-			<Grid
-				container
-				className={classes.footer}
-				xs={12}
-				justify="space-between"
-			>
+			<Grid container className={classes.footer} justify="space-between">
 				<Grid item container xs={1}>
 					<Grid item>
 						<Typography variant="subtitle1" component={Link} href="/">
