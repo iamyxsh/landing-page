@@ -39,6 +39,9 @@ const theme = createMuiTheme({
 			fontWeight: 700,
 			margin: 0,
 		},
+		subtitle1: {
+			color: "grey",
+		},
 		button: {
 			fontFamily: "Parisienne",
 			color: "white",
@@ -64,6 +67,7 @@ const theme = createMuiTheme({
 		buttonPrim: {
 			height: "3.5rem",
 			width: "100%",
+			color: "white",
 			"&:hover": {
 				backgroundColor: YELLOW,
 			},

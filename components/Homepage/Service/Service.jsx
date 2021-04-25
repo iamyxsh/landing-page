@@ -1,16 +1,21 @@
 import { Grid } from "@material-ui/core"
 import React from "react"
 import blocks from "../../../constants/services-block"
-import ServiceBlock from "./ServiceBlock"
+import ServiceBlock1 from "./ServiceBlock1"
+import ServiceBlock2 from "./ServiceBlock2"
 
 const Service = () => {
 	return (
-		<Grid container direction="column" spacing={4}>
-			{blocks.map((block, ind) => (
-				<Grid item xs={10}>
-					<ServiceBlock key={ind} block={block} />
-				</Grid>
-			))}
+		<Grid container style={{ width: "99.5vw" }} direction="column" spacing={6}>
+			<Grid container item xs={12}>
+				<ServiceBlock1 block={blocks.software} />
+			</Grid>
+			<Grid container item xs={12}>
+				<ServiceBlock2 block={blocks.ios} />
+			</Grid>
+			<Grid container item xs={12}>
+				<ServiceBlock1 block={blocks.web} />
+			</Grid>
 		</Grid>
 	)
 }
