@@ -23,7 +23,7 @@ const theme = createMuiTheme({
 		},
 	},
 	typography: {
-		fontFamily: `"Poppins", "Sacramento","Helvetica", "Arial", "sans-serif"`,
+		fontFamily: `"Poppins", "Playfair Display", "Parisienne", "Sacramento","Helvetica", "Arial", "sans-serif"`,
 		fontSize: 16,
 		h1: {
 			fontFamily: "Sacramento",
@@ -33,6 +33,10 @@ const theme = createMuiTheme({
 			color: BLUE_DEEP,
 			fontWeight: 700,
 		},
+		h3: {
+			fontFamily: "Playfair Display",
+			color: BLUE_DEEP,
+		},
 		h4: {
 			fontFamily: "Poppins",
 			color: BLUE_DEEP,
@@ -41,6 +45,10 @@ const theme = createMuiTheme({
 		},
 		subtitle1: {
 			color: "grey",
+		},
+		subtitle2: {
+			color: BLUE_DEEP,
+			opacity: 0.75,
 		},
 		button: {
 			fontFamily: "Parisienne",

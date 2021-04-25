@@ -43,6 +43,10 @@ export default function MyApp(props) {
 					href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
 					rel="stylesheet"
 				/>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;900&display=swap"
+					rel="stylesheet"
+				/>
 			</Head>
 			<ThemeProvider theme={theme}>
 				<CssBaseline />

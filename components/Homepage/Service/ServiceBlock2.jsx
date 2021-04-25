@@ -10,6 +10,7 @@ import React from "react"
 import Link from "next/link"
 
 import Ios from "../../../assets/smartphone-call.jsx"
+import { ArrowForward } from "@material-ui/icons"
 
 const useStyles = makeStyles((theme) => ({
 	container: {
@@ -67,9 +68,13 @@ const ServiceBlock2 = ({ block }) => {
 				<Grid item style={{ margin: "1rem 0 1.5rem" }}>
 					<Typography variant="body">{body}</Typography>
 				</Grid>
-				<Grid item xs={4}>
+				<Grid item>
 					<Link href={link}>
-						<Button className={classes.learnMore} variant="contained">
+						<Button
+							endIcon={<ArrowForward />}
+							className={classes.learnMore}
+							variant="contained"
+						>
 							Learn More
 						</Button>
 					</Link>

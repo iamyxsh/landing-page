@@ -14,3 +14,13 @@ a {
 * {
 	box-sizing: border-box;
 }
+
+.info-container {
+	background-size: cover;
+	background-image: url("../assets/orange-bg.jpg");
+}
+
+.cta-container {
+	background-size: cover;
+	background-image: url("../assets/cta-background.jpeg");
+}
