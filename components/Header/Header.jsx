@@ -70,6 +70,7 @@ export default function Header() {
 					tab={tab}
 					open={drawer}
 					setOpen={(val) => setDrawer(val)}
+					matchesMD={matchesMD}
 				/>
 			</Toolbar>
 		</AppBar>

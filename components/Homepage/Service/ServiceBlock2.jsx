@@ -66,7 +66,7 @@ const ServiceBlock2 = ({ block }) => {
 					<Typography variant="subtitle1">{sub}</Typography>
 				</Grid>
 				<Grid item style={{ margin: "1rem 0 1.5rem" }}>
-					<Typography variant="body">{body}</Typography>
+					<Typography variant="body1">{body}</Typography>
 				</Grid>
 				<Grid item>
 					<Link href={link}>

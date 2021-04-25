@@ -16,10 +16,17 @@ const useStyles = makeStyles((theme) => ({
 		width: "100vw",
 		padding: "5rem",
 		textAlign: "center",
+		margin: "auto",
 		backgroundImage: `linear-gradient(-45deg,${theme.palette.primary.light}, white)`,
+		[theme.breakpoints.down("sm")]: {
+			padding: "5rem 0.5rem",
+		},
 	},
 	card: {
 		padding: "5rem 3rem",
+		[theme.breakpoints.down("sm")]: {
+			padding: "1rem 0.5rem",
+		},
 	},
 	button: {
 		...theme.mixins.buttonSec,

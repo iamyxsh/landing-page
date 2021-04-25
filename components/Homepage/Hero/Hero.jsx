@@ -2,7 +2,7 @@ import React from "react"
 import HeroAnim from "./HeroAnim"
 import { makeStyles } from "@material-ui/core/styles"
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward"
-import { Button, Grid, Typography } from "@material-ui/core"
+import { Button, Container, Grid, Typography } from "@material-ui/core"
 
 const useStyles = makeStyles((theme) => ({
 	freeEstimate: {
@@ -35,7 +35,7 @@ const Hero = () => {
 	const classes = useStyles()
 
 	return (
-		<>
+		<Container maxWidth="xl">
 			<Grid container>
 				<Grid
 					container
@@ -86,7 +86,7 @@ const Hero = () => {
 					<HeroAnim />
 				</Grid>
 			</Grid>
-		</>
+		</Container>
 	)
 }
 

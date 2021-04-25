@@ -6,6 +6,10 @@ import HeaderTabs from "./HeaderTabs"
 const useStyles = makeStyles((theme) => ({
 	drawer: {
 		backgroundColor: theme.palette.primary.main,
+		display: "none",
+		[theme.breakpoints.down("sm")]: {
+			display: "block",
+		},
 		[theme.breakpoints.down("xs")]: {
 			minWidth: "50vw",
 		},
