@@ -43,12 +43,21 @@ const theme = createMuiTheme({
 			fontWeight: 700,
 			margin: 0,
 		},
+		h5: {
+			fontFamily: "Poppins",
+			color: BLUE_DEEP,
+			fontWeight: 500,
+			margin: 0,
+		},
 		subtitle1: {
 			color: "grey",
 		},
 		subtitle2: {
 			color: BLUE_DEEP,
 			opacity: 0.75,
+		},
+		body1: {
+			color: "grey",
 		},
 		button: {
 			fontFamily: "Parisienne",

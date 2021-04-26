@@ -9,8 +9,8 @@ const Service = () => {
 		<Grid
 			container
 			direction="column"
-			spacing={6}
-			style={{ padding: "1rem", width: "99vw" }}
+			spacing={2}
+			style={{ padding: "1rem", width: "100vw" }}
 		>
 			<Grid container item>
 				<ServiceBlock1 block={blocks.software} />
